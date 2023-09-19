@@ -3,23 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me</title>
+
+<style>
+    body {background-image: url('background.jpeg'); background-size: cover; margin: 0; padding: 0; text-align: center;}
+    .center { margin-left: auto; margin-right: auto; }
+    .banner { display: block; margin: auto; }
+    .content { max-width: 1024px; padding: 20px; margin-left: auto; margin-right: auto; }
+    p { float: left; color: whitesmoke; }
+    h1 {color: whitesmoke;}
+    #me {float: right;}
+</style>
 </head>
 <body>
-    <img src="banner.jpeg" alt="CSC Title Tag">
-    <h1>About Me</h1>
-    <table width = "800px">
+    <div class="banner"></div>
+        <img src="mancini_banner.png" alt="CSC Title Tag" height="250px">
+</div>
+
+    <table class = "center" width = "1024px">
+    <tr>
+        
+        <td align = "center"> 
+            <a href="index.html"> <img src="mancini_home.png" alt="Home Button"> </a>
+        </td>
+
+       <td align = "center"> 
+        <a href="about.html"><img src="mancini_about.png" alt="About Me Button"></a>
+       </td>
+       <td align = "center">
+        <a href="javascripts.html"> <img src="mancini_java.png" alt="Javascript Button"></a>
+        </td>
+    </tr>
+    </table>
+    <h1>A Little More About Me</h1>
+    <div class = "content">
+        <p>
+        <img src="me.jpg" width="150" id = "me">
+         <br>
+         My name is Sofia Mancini. I moved to Rhode Island in July 2023 to attend URI. 
+         I am working towards obtaining two undergraduate degrees, one in Computer Science, and one in Physics.
+         I was awarded my first undergraduate degree from UConn in 2017. 
+         I have traveled extensively, even living in Malta for a year. 
+         One thing I love to do when travelling is to practice speaking the language, I have learned French, Spanish, and a little Maltese.
+         While I am new to programming, I look forward to everything I will be able to create.
+
+        
+        </div>
+        </p>
+    <div class="image-table">
+    <table class = "center" width = "1024px">
         <tr>
-            
-            <td align = "center"> 
-                <a href="index.html"> <img src="home.png" alt="Home Button"> </a>
-            </td>
-    
            <td align = "center"> 
-            <a href="about.html"><img src="about.png" alt="About Me Button"></a>
+                <img src="krkk.jpg" width="300">
            </td>
-           <td align = "center">
-            <a href="about.html"> <img src="java.png" alt="Javascript Button"></a>
-            </td>
+           <td align = "center"> 
+                <img src="arch.jpg" width="300">
+           </td>
+           <td align = "center"> 
+
+                <img src="mallorca.jpg" width="295">
+
+           </td>
+        </tr>
+        </table>
+    </div>
+
+    
 </body>
 </html>
